@@ -1,0 +1,15 @@
+.parent{
+
+}
+.first{
+    height: 400px; width:280px; border: 1px solid; float: left; text-align: center;
+    border-color: red; margin: 3%;
+}
+.second{
+    height: 400px; width:280px; border: 1px solid; float: left; text-align: center;
+    border-color: green; margin: 3%;
+}
+.third{
+    height: 400px; width:280px; border: 1px solid; float: left; text-align: center;
+    border-color: blue; margin: 3%;
+}
