@@ -1,15 +1,19 @@
-.parent{
+.parent
+{
 
 }
-.first{
+.first
+{
     height: 400px; width:280px; border: 1px solid; float: left; text-align: center;
     border-color: red; margin: 3%;
 }
-.second{
+.second
+{
     height: 400px; width:280px; border: 1px solid; float: left; text-align: center;
     border-color: green; margin: 3%;
 }
-.third{
+.third
+{
     height: 400px; width:280px; border: 1px solid; float: left; text-align: center;
     border-color: blue; margin: 3%;
 }

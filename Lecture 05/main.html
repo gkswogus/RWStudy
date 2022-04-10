@@ -4,44 +4,71 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
     <title>Test Hint</title>
+    
     <script src="Hanoi.js"></script>
-    <link href="style.css" rel="stylesheet" type="text/css">
+    
+    <link href="style.css" rel="stylesheet" >
 </head>
+
+<style>
+     .squares { visibility: hidden;}
+</style>
 
 <body>
 
-    <p>하노이의 탑</p>
+ <p>하노이의 탑</p>
 
-    <form id="form_box" method="get" action="form-action.html">
-        <!-- <label><input id="radio_toRight" type="radio" name="hanoi"></label>
-        <label><input id="radio_toLeft" type="radio" name="hanoi"></label> -->
-        
-         <!-- <input id="button_reset" type="button" value="Move" onclick="Move();"> -->
-         <input id = "button_reset" type="button" value="초기화" onclick="Init();">
-    </form>
+   
+ <button onclick="Reset()">초기화</button>
 
-<div class="parent">
+
+    
+   
+    
+    
+
+ <div class="parent">
     <div class="first">first
-        <div class = "box" style=" border-color: red; margin: 3%;">
+        <div class = "squares"> 
+               
+            <div id ="RSquares">
             <div style="margin: auto; margin-top: 3%; margin-bottom: 3%; text-align: center">
                 🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥
             </div>
+            </div>
+               
+            <div id="YSquares">
             <div style="margin: auto;  margin-top: 3%; margin-bottom: 3%; text-align: center">
                 🟨🟨🟨🟨🟨🟨🟨🟨🟨
             </div>
+            </div>
+           
+            <div id ="GSquares">
             <div style="margin: auto;  margin-top: 3%; margin-bottom: 3%; text-align: center ">
                 🟩🟩🟩🟩🟩🟩🟩
             </div>
+            </div>
+            
+            <div id="BSquares">
             <div style="margin: auto; margin-top: 3%; margin-bottom: 3%; text-align: center">
                 🟦🟦🟦🟦🟦
+            </div>    
             </div>
+
+            <div id="PSquares">
             <div style="margin: auto; margin-top: 3%; margin-bottom: 3%; text-align: center">
                 🟪🟪🟪
             </div>
+            </div>
+
+            <div id="BlSquares">
             <div style="margin: auto;  margin-top: 3%; margin-bottom: 3%; text-align: center">
                 ⬛️
             </div>
+            </div>
+     
         </div>
     </div>
     
